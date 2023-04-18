@@ -1,7 +1,10 @@
 ﻿namespace CreatePhoneNumber.BL
 {
-    public class PhoneNumberCreator
+    public class PhoneNumberCreator : IPhoneNumberCreator
     {
-
+        public string CreatePhoneNumber(int[] numbers)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
